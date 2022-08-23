@@ -39,7 +39,7 @@ section{
 .list {
     list-style: none;}
 
-.conteiner{
+.container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -71,6 +71,8 @@ section{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--secondary-color-text);}
 .contact-link:hover,
 .contact-link:focus{
@@ -88,7 +90,8 @@ section{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;}
 
 .logo-color-black{
     font-family: var(--secondary-font);
@@ -96,20 +99,15 @@ section{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;}
+    color: #000000;
+    display: inline-block;}
 
         /* Розташування та розміри */
 
-.all-logo{margin-right: 93px;}
+.top-header{border-bottom: #ECECEC;}
 
 .container-header{
-    width: 1200px; 
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: #ECECEC;}
+    display: flex}
 
 .menu, .navigation{
     display: flex;
@@ -132,8 +130,8 @@ section{
 
 .banner-section{
     background-color: #2F303A;
-    padding-top: 0px;
-    padding-bottom: 0px;}
+    padding-top: 200px;
+    padding-bottom: 200px;}
 
 .title-banner{
     font-weight: 900;
@@ -143,7 +141,10 @@ section{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;}
 
 .button-open-form{
     background-color: var(--accent-color);
@@ -152,9 +153,8 @@ section{
     line-height: 1.87;
     display: inline-block;
     cursor: pointer;
-    width: 216px;
-    height: 50px;
     text-align: center;
+    padding: 10px 32px;
     margin-left: auto;
     margin-right: auto;
     letter-spacing: 0.06em;
@@ -167,9 +167,6 @@ section{
     background-color:#188CE8;}
 
         /* Розташування та розміри */
-.hero-conteiner{
-    padding-top: 200px;
-    padding-bottom: 200px;}
 
 
     /* Секція з перевагами */
@@ -207,8 +204,7 @@ section{
 
 .list-benefits{
     display: flex;
-    gap: 30px; 
-    padding-top: 94px;}
+    gap: 30px; }
    
 .item-list-benefits{
     flex-basis: calc((100%-90)/4);}
@@ -229,7 +225,6 @@ section{
         /* Розташуваннята розміри */
 .list-with-image{
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;}
 
 .item-list-img{
@@ -331,8 +326,7 @@ flex-basis: calc((100%-60)/3);}
 
 .item-list-examples{
     background-color: #FFFFFF;
-    /* */
-    flex-basis: calc((100%-20)/3);
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .name-examplex{
@@ -353,7 +347,7 @@ flex-basis: calc((100%-60)/3);}
 .list-button{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;} 
+    margin-bottom: 50px;} 
     
 .item-list-button{  
     display: flex;}
@@ -364,7 +358,6 @@ flex-basis: calc((100%-60)/3);}
     gap: 30px;}
 
 .text-examplex{
-    border: 1px solid #EEEEEE;
     padding: 20px 24px;}
 
 
@@ -393,11 +386,10 @@ flex-basis: calc((100%-60)/3);}
     margin-bottom: 20px;}
 
 .footer-page{
-    background-color: #2F303A;}
+    background-color: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;}
 
-.footer-conteiner{
-    padding-top: 60px;
-    padding-bottom: 60px;}
 
 .item-footer-list{
     margin-bottom: 9px;}

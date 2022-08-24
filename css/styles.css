@@ -46,12 +46,20 @@ section{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    flex-direction: column;}
+    justify-content: center;
+   
+}
 
 
     /* Шапка сайту */
 
         /* Шрифти та кольори */
+
+
+
+.top-header .container{ 
+    display: flex;
+    justify-content: space-beetween;}
 
 .link-page-menu {
     font-weight: 500;
@@ -100,14 +108,13 @@ section{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-    display: inline-block;}
+    display: inline-block;
+    margin-right: 93px;}
 
         /* Розташування та розміри */
 
 .top-header{border-bottom: #ECECEC;}
 
-.container-header{
-    display: flex}
 
 .menu, .navigation{
     display: flex;
@@ -168,6 +175,11 @@ section{
 
         /* Розташування та розміри */
 
+.container-banner{
+        display: flex;
+        flex-direction: column;
+        padding-left: auto;
+        padding-right: auto;}
 
     /* Секція з перевагами */
 
@@ -202,6 +214,13 @@ section{
 
         /* Розташування та розміри */
 
+.container-benefits{
+        display: flex;
+        flex-direction: column;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
 .list-benefits{
     display: flex;
     gap: 30px; }
@@ -223,6 +242,13 @@ section{
     margin-bottom: 50px;}
 
         /* Розташуваннята розміри */
+
+.container-list-img{
+        display: flex;
+        flex-direction: column;
+        padding-left: auto;
+        padding-right: auto;}
+
 .list-with-image{
     display: flex;
     gap: 30px;}
@@ -263,6 +289,8 @@ flex-basis: calc((100%-60)/3);}
     letter-spacing: 0.03em;
     color: var(--secondary-color-text);}
 
+
+
 .section-team-members{
     background-color: #F5F4FA;}
 .list-team-members{
@@ -291,7 +319,12 @@ flex-basis: calc((100%-60)/3);}
     padding-bottom: 30px;
 }
 
-
+.container-team{
+        display: flex;
+        flex-direction: column;
+        padding-left: auto;
+        padding-right: auto;
+    }
 
 
 /* Контент на сторінці портфоліо */
@@ -361,7 +394,12 @@ flex-basis: calc((100%-60)/3);}
     padding: 20px 24px;}
 
 
-
+.container-examplex{
+        display: flex;
+        flex-direction: column;
+        padding-left: auto;
+        padding-right: auto;
+    }
 
 
 
@@ -389,6 +427,14 @@ flex-basis: calc((100%-60)/3);}
     background-color: #2F303A;
 padding-top: 60px;
 padding-bottom: 60px;}
+
+.footer-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+}
+
+
 
 
 .item-footer-list{

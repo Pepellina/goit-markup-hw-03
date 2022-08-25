@@ -43,10 +43,8 @@ section{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
     margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+    margin-right: auto;;
    
 }
 
@@ -91,6 +89,7 @@ section{
 
         /* Стилі логотипу в хедері */
 
+
 .logo-header{
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -99,17 +98,11 @@ section{
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: inline-block;}
-
-.logo-color-black{
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
     display: inline-block;
     margin-right: 93px;}
+
+.logo-color-black{
+    color: #000000;}
 
         /* Розташування та розміри */
 
@@ -138,48 +131,45 @@ section{
 .banner-section{
     background-color: #2F303A;
     padding-top: 200px;
-    padding-bottom: 200px;}
+    padding-bottom: 200px;
+}
 
 .title-banner{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;}
+    width: 696px;}
+
+
 
 .button-open-form{
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: inline-block;
+    display: flex;
     cursor: pointer;
-    text-align: center;
-    padding: 10px 32px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    padding: 10px 32px;
     letter-spacing: 0.06em;
     border: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    }
 .button-open-form:hover,
 .button-open-form:focus{
     background-color:#188CE8;}
 
-        /* Розташування та розміри */
-
-.container-banner{
-        display: flex;
-        flex-direction: column;
-        padding-left: auto;
-        padding-right: auto;}
 
     /* Секція з перевагами */
 
@@ -214,12 +204,6 @@ section{
 
         /* Розташування та розміри */
 
-.container-benefits{
-        display: flex;
-        flex-direction: column;
-        padding-left: auto;
-        padding-right: auto;
-    }
 
 .list-benefits{
     display: flex;
@@ -242,12 +226,6 @@ section{
     margin-bottom: 50px;}
 
         /* Розташуваннята розміри */
-
-.container-list-img{
-        display: flex;
-        flex-direction: column;
-        padding-left: auto;
-        padding-right: auto;}
 
 .list-with-image{
     display: flex;
@@ -319,12 +297,6 @@ flex-basis: calc((100%-60)/3);}
     padding-bottom: 30px;
 }
 
-.container-team{
-        display: flex;
-        flex-direction: column;
-        padding-left: auto;
-        padding-right: auto;
-    }
 
 
 /* Контент на сторінці портфоліо */
@@ -391,7 +363,10 @@ flex-basis: calc((100%-60)/3);}
     gap: 30px;}
 
 .text-examplex{
-    padding: 20px 24px;}
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;;
+    border-right: 1px solid #EEEEEE;;
+    border-bottom: 1px solid #EEEEEE;;}
 
 
 .container-examplex{
